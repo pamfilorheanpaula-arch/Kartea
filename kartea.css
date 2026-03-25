@@ -713,6 +713,44 @@ input[type="submit"]:active,.button:active { transform: scale(0.98); }
     border-bottom: 1px solid var(--tan-light);
     color: var(--text-main);
 }
+.customer-contact-section{
+    background: #fdf6ec;
+    padding: 16px;
+    border-radius: 12px;
+    margin: 16px 0;
+    border: 2px solid #e8d5bc;
+}
+#customer-phone{
+    width: 100%;
+    padding: 14px;
+    border: 1.5px solid #e8d5bc;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #fff;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+#customer-phone:focus{
+    border-color: #8b4513;
+    outline: none;
+    box-shadow: 0 0 3px rgba(139,69,19,0.1);
+}
+.customer-contact-section small{
+    color: #9A7A5A;
+    font-family: 13px;
+    display: block;
+    margin: 4px;
+}
+/* Order phone display */
+.order-phone {
+    font-size: 14px;
+    color: #28A745;
+    font-family: monospace;
+    background: #d4edda;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 4px 0;
+}
 .cart-item:last-child { border-bottom: none; }
 .cart-item-info { flex: 1; min-width: 0; }
 .cart-item-name { font-size: 13px; font-weight: 700; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
